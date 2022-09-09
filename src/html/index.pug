@@ -41,6 +41,7 @@ block content
           for host in hosts.slice(9, 16).filter((host) => host.archive !== true)
             h1.host-meta #{host.company}
             h3.host-meta #{host.description}
+            a(href=`/twitter.html?comp=${host.company}`).host-meta  
             a(href=host.href, target="_blank").host-info
               img(src=host.logo)
           |+More

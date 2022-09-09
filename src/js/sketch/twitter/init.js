@@ -1,16 +1,27 @@
+import data from "../../../data.json"
+
 const THREE = require("three");
 const { debounce } = require("@ykob/js-util");
 
 const SmoothScrollManager =
   require("../../smooth_scroll_manager/SmoothScrollManager").default;
 const TitleObject = require("./TitleObject").default;
-const BuildingObject = require("./LogoObject").default;
+const LogoObject = require("./LogoObject").default;
 const Ground = require("./Ground").default;
 const PostEffect = require("../../index/PostEffect").default;
 const Typo = require("../../index/Typo").default;
 
-export default function () {
+export default function (props) {
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  const company = urlParams.get('comp')
+  const companyData = data.hosts.find(host => host.company === company)
   const scrollManager = new SmoothScrollManager();
+
+  const header = document.getElementById("header");
+  header.innerHTML = companyData.company;
+  const description = document.getElementById("description");
+  description.innerHTML = companyData.description;
 
   const canvas = document.getElementById("canvas-webgl");
   const renderer = new THREE.WebGL1Renderer({
@@ -30,11 +41,12 @@ export default function () {
     1,
     10000
   );
+
   const clock = new THREE.Clock();
   const texLoader = new THREE.TextureLoader();
   const ground = new Ground();
   const titleObject = new TitleObject();
-  const buildingObject = new BuildingObject();
+  const logoObject = new LogoObject(companyData.logo);
   const postEffect = new PostEffect(renderBack.texture);
   const typo = new Typo();
   let textures;
@@ -53,7 +65,7 @@ export default function () {
   const render = () => {
     const time = clock.getDelta();
     titleObject.render(time);
-    buildingObject.render(time);
+    logoObject.render(time);
     ground.render(time);
 
     renderer.setRenderTarget(renderBack);
@@ -99,8 +111,8 @@ export default function () {
     scene.add(postEffect.obj);
     // sceneBack.add(ground.obj);
 
-    buildingObject.loadTexture(() => {
-      sceneBack.add(buildingObject.obj);
+    logoObject.loadTexture(() => {
+      sceneBack.add(logoObject.obj);
     });
 
     titleObject.loadTexture(() => {

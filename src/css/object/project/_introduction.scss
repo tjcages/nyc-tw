@@ -8,6 +8,23 @@
   animation-fill-mode: forwards;
 }
 
+.host-meta {
+  position: fixed;
+  left: 0;
+  opacity: 0;
+  z-index: -100;
+
+  @for $i from 1 through 40 {
+    &:nth-child(#{$i}) {
+      top: $i * 20px;
+    }
+  }
+}
+
+.host-info {
+  z-index: 1;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;

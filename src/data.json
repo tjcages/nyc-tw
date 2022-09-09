@@ -27,5 +27,104 @@
       "path": "/twitter",
       "color": "white"
     }
-  }
+  },
+  "hosts": [
+    {
+      "company": "Not Boring",
+      "logo": "/img/logos/notboring.png",
+      "description": "Not Boring is attending New York Tech Week 2022",
+      "href": "https://www.notboring.co/"
+    },
+    {
+      "company": "Launch House",
+      "logo": "/img/logos/launchhouse.png",
+      "description": "Launch House is attending New York Tech Week 2022",
+      "href": "https://www.launchhouse.com/"
+    },
+    {
+      "company": "Ramp",
+      "logo": "/img/logos/ramp.png",
+      "description": "Ramp is attending New York Tech Week 2022",
+      "href": "https://ramp.com/"
+    },
+    {
+      "company": "Party Round",
+      "logo": "/img/logos/partyround.png",
+      "description": "Party Round is attending New York Tech Week 2022",
+      "href": "https://www.partyround.com/"
+    },
+    {
+      "company": "Brex",
+      "logo": "/img/logos/brex.png",
+      "description": "Brex is attending New York Tech Week 2022",
+      "href": "https://www.brex.com/"
+    },
+    {
+      "company": "Workweek",
+      "logo": "/img/logos/workweek.png",
+      "description": "Workweek is attending New York Tech Week 2022",
+      "href": "https://workweek.com/"
+    },
+    {
+      "company": "Simulate",
+      "logo": "/img/logos/simulate.png",
+      "description": "Simulate is attending New York Tech Week 2022",
+      "href": "https://simulate.com/"
+    },
+    {
+      "company": "Company",
+      "logo": "/img/logos/companyco.png",
+      "description": "Company.co is attending New York Tech Week 2022",
+      "href": "https://company.co/"
+    },
+    {
+      "company": "Alloy",
+      "logo": "/img/logos/alloy.png",
+      "description": "Alloy is attending New York Tech Week 2022",
+      "href": "https://runalloy.com/",
+      "archive": true
+    },
+    {
+      "company": "Stonks",
+      "logo": "/img/logos/stonks.png",
+      "description": "Stonks is attending New York Tech Week 2022",
+      "href": "https://stonks.com/"
+    },
+    {
+      "company": "Magna",
+      "logo": "/img/logos/magna.png",
+      "description": "Magna is attending New York Tech Week 2022",
+      "href": "https://www.magna.so/"
+    },
+    {
+      "company": "OnDeck",
+      "logo": "/img/logos/ondeck.png",
+      "description": "OnDeck is attending New York Tech Week 2022",
+      "href": "https://www.beondeck.com/"
+    },
+    {
+      "company": "Spacecadet",
+      "logo": "/img/logos/spacecadet.png",
+      "description": "Spacecadet is attending New York Tech Week 2022",
+      "href": "https://spacecadet.ventures/"
+    },
+    {
+      "company": "Contrary",
+      "logo": "/img/logos/contrary.png",
+      "description": "Contrary is attending New York Tech Week 2022",
+      "href": "https://contrary.com/"
+    },
+    {
+      "company": "HustleFund",
+      "logo": "/img/logos/hustle.png",
+      "description": "HustleFund is attending New York Tech Week 2022",
+      "href": "https://www.hustlefund.vc/"
+    },
+    {
+      "company": "HuPraying For ExitsstleFund",
+      "logo": "/img/logos/praying.png",
+      "description": "Praying For Exits is attending New York Tech Week 2022",
+      "href": "https://www.prayingforexits.com/"
+    }
+  ]
 }

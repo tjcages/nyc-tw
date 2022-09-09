@@ -97,7 +97,7 @@ export default function () {
     cameraBack.position.z = 800;
 
     scene.add(postEffect.obj);
-    sceneBack.add(ground.obj);
+    // sceneBack.add(ground.obj);
 
     buildingObject.loadTexture(() => {
       sceneBack.add(buildingObject.obj);

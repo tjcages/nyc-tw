@@ -121,10 +121,17 @@
       "href": "https://www.hustlefund.vc/"
     },
     {
-      "company": "HuPraying For ExitsstleFund",
+      "company": "Praying For Exits",
       "logo": "/img/logos/praying.png",
       "description": "Praying For Exits is attending New York Tech Week 2022",
       "href": "https://www.prayingforexits.com/"
+    },
+    {
+      "company": "Partiful",
+      "logo": "/img/logos/partiful.png",
+      "description": "Partiful is attending New York Tech Week 2022",
+      "href": "https://partiful.com/",
+      "archive": true
     }
   ]
 }

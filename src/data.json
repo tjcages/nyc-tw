@@ -132,6 +132,20 @@
       "description": "Partiful is attending New York Tech Week 2022",
       "href": "https://partiful.com/",
       "archive": true
+    },
+    {
+      "company": "Antler",
+      "logo": "/img/logos/antler.png",
+      "description": "Antler is attending New York Tech Week 2022",
+      "href": "https://www.antler.co/",
+      "archive": true
+    },
+    {
+      "company": "Day One",
+      "logo": "/img/logos/dayone.png",
+      "description": "Day One is attending New York Tech Week 2022",
+      "href": "https://www.joindayone.com/",
+      "archive": true
     }
   ]
 }

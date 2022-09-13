@@ -45,7 +45,8 @@ export default class TitleObject {
   }
   createObj() {
     return new THREE.Mesh(
-      new THREE.PlaneGeometry(200, 200, 40, 10),
+      new THREE.PlaneGeometry(400, 120, 40, 10), // wide
+      // new THREE.PlaneGeometry(200, 200, 40, 10), normal
       new THREE.RawShaderMaterial({
         uniforms: this.uniforms,
         vertexShader: vs,

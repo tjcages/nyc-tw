@@ -6,8 +6,8 @@ const SmoothScrollManager =
   require("../../smooth_scroll_manager/SmoothScrollManager").default;
 const TitleObject = require("./TitleObject").default;
 const Ground = require("./Ground").default;
-const Debris = require("./Debris").default;
-const PostEffect = require("./PostEffect").default;
+const Debris = require("../../index/Debris").default;
+const PostEffect = require("../../index/PostEffect").default;
 
 export default function () {
   const scrollManager = new SmoothScrollManager();

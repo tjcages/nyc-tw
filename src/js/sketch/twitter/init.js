@@ -7,7 +7,6 @@ const SmoothScrollManager =
   require("../../smooth_scroll_manager/SmoothScrollManager").default;
 const TitleObject = require("./TitleObject").default;
 const LogoObject = require("./LogoObject").default;
-const Ground = require("./Ground").default;
 const PostEffect = require("../../index/PostEffect").default;
 const Typo = require("../../index/Typo").default;
 
@@ -44,7 +43,6 @@ export default function (props) {
 
   const clock = new THREE.Clock();
   const texLoader = new THREE.TextureLoader();
-  const ground = new Ground();
   const titleObject = new TitleObject();
   const logoObject = new LogoObject(companyData.logo);
   const postEffect = new PostEffect(renderBack.texture);
@@ -66,7 +64,6 @@ export default function (props) {
     const time = clock.getDelta();
     titleObject.render(time);
     logoObject.render(time);
-    ground.render(time);
 
     renderer.setRenderTarget(renderBack);
     renderer.render(sceneBack, cameraBack);
@@ -109,7 +106,6 @@ export default function (props) {
     cameraBack.position.z = 800;
 
     scene.add(postEffect.obj);
-    // sceneBack.add(ground.obj);
 
     logoObject.loadTexture(() => {
       sceneBack.add(logoObject.obj);

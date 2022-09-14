@@ -171,7 +171,7 @@ module.exports.copy = {
       `${DIR.SRC}/img/**/*.*`,
       `${DIR.SRC}/font/**/*.*`,
       `${DIR.SRC}/model/**/*.*`,
-      `${DIR.SRC}/js/vendor/clmtrackr/**/*`,
+      // `${DIR.SRC}/js/vendor/clmtrackr/**/*`,
     ],
     dest: `${DIR.DEST}`,
     opts: {
@@ -183,7 +183,7 @@ module.exports.copy = {
       `${DIR.DEST}/img/**/*.ico`,
       `${DIR.DEST}/font/**/*.*`,
       `${DIR.DEST}/model/**/*.*`,
-      `${DIR.DEST}/js/vendor/clmtrackr/**/*`,
+      // `${DIR.DEST}/js/vendor/clmtrackr/**/*`,
     ],
     dest: `${DIR.BUILD}`,
     opts: {

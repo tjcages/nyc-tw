@@ -3,8 +3,8 @@ const THREE = require("three");
 const isiOS = require('../../smooth_scroll_manager/isiOS');
 const isAndroid = require('../../smooth_scroll_manager/isAndroid');
 
-import vs from "./glsl/typo.vs";
-import fs from "./glsl/typo.fs";
+import vs from "../../index/glsl/typo.vs";
+import fs from "../../index/glsl/typo.fs";
 
 export default class TitleObject {
   constructor() {

@@ -33,17 +33,17 @@ block content
           for host in hosts.slice(0, 9).filter((host) => host.archive !== true)
             h1.host-meta #{host.company}
             h3.host-meta #{host.description}
-            a(href=`/twitter.html?comp=${host.company}`).host-meta  
-            a(href=host.href, target="_blank").host-info
-              img(src=host.logo)
+            a(href=`/twitter.html?comp=${host.company}`, aria-label=`Go to ${host.company}'s preview page`).host-meta  
+            a(href=host.href, target="_blank", aria-label=`Go to ${host.company}'s website`).host-info
+              img(src=host.logo, alt=`${host.company} logo`)
 
         .p-introduction__row.js-transition-intro
           for host in hosts.slice(9, 16).filter((host) => host.archive !== true)
             h1.host-meta #{host.company}
             h3.host-meta #{host.description}
-            a(href=`/twitter.html?comp=${host.company}`).host-meta  
-            a(href=host.href, target="_blank").host-info
-              img(src=host.logo)
+            a(href=`/twitter.html?comp=${host.company}`, aria-label=`Go to ${host.company}'s preview page`).host-meta  
+            a(href=host.href, target="_blank", aria-label=`Go to ${host.company}'s website`).host-info
+              img(src=host.logo, alt=`${host.company} logo`)
           |+More
 
         .p-introduction__follow.js-transition-intro

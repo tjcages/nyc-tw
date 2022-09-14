@@ -160,6 +160,27 @@
       "description": "Launch House is attending New York Tech Week 2022",
       "href": "https://www.launchhouse.com/",
       "archive": true
+    },
+    {
+      "company": "Empire DAO",
+      "logo": "/img/logos/empiredao.png",
+      "description": "Empire DAO is attending New York Tech Week 2022",
+      "href": "https://empiredao.xyz/",
+      "archive": true
+    },
+    {
+      "company": "Venture City",
+      "logo": "/img/logos/venturecity.png",
+      "description": "Venture City is attending New York Tech Week 2022",
+      "href": "https://www.theventure.city/",
+      "archive": true
+    },
+    {
+      "company": "Verci",
+      "logo": "/img/logos/verci.png",
+      "description": "Verci is attending New York Tech Week 2022",
+      "href": "https://www.verci.com/",
+      "archive": true
     }
   ]
 }

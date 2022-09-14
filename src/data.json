@@ -36,10 +36,10 @@
       "href": "https://www.notboring.co/"
     },
     {
-      "company": "Launch House",
-      "logo": "/img/logos/launchhouse.png",
-      "description": "Launch House is attending New York Tech Week 2022",
-      "href": "https://www.launchhouse.com/"
+      "company": "Cometeer",
+      "logo": "/img/logos/cometeer.png",
+      "description": "Cometeer is attending New York Tech Week 2022. City that (drinks a lot of coffee and) never sleeps 😤😤",
+      "href": "https://cometeer.com/"
     },
     {
       "company": "Ramp",
@@ -145,6 +145,20 @@
       "logo": "/img/logos/dayone.png",
       "description": "Day One is attending New York Tech Week 2022",
       "href": "https://www.joindayone.com/",
+      "archive": true
+    },
+    {
+      "company": "Afore Capital",
+      "logo": "/img/logos/afore.png",
+      "description": "Afore Capital is attending New York Tech Week 2022",
+      "href": "https://www.afore.vc/",
+      "archive": true
+    },
+    {
+      "company": "Launch House",
+      "logo": "/img/logos/launchhouse.png",
+      "description": "Launch House is attending New York Tech Week 2022",
+      "href": "https://www.launchhouse.com/",
       "archive": true
     }
   ]

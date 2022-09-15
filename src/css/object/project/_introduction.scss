@@ -152,7 +152,7 @@
     max-width: 464px;
     margin: 0 auto 12px;
     align-items: center;
-    gap: 12px;
+    gap: 8px;
     opacity: 0;
     transform: translateY(-10px);
     transition-property: opacity, transform;
@@ -174,7 +174,9 @@
     }
 
     img {
-      height: 32px;
+      height: 28px;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%) contrast(300%);
     }
 
     @media (min-width: $break-point-mobile) {

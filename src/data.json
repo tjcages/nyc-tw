@@ -72,6 +72,12 @@
       "href": "https://simulate.com/"
     },
     {
+      "company": "Banana Capital",
+      "logo": "/img/logos/bananacap.png",
+      "description": "Banana Capital is attending New York Tech Week 2022",
+      "href": "https://www.bananacapital.vc/"
+    },
+    {
       "company": "Company",
       "logo": "/img/logos/companyco.png",
       "description": "Company.co is attending New York Tech Week 2022",
@@ -181,6 +187,12 @@
       "description": "Verci is attending New York Tech Week 2022",
       "href": "https://www.verci.com/",
       "archive": true
+    },
+    {
+      "company": "This Week in Fintech",
+      "logo": "/img/logos/twif.png",
+      "description": "This Week in Fintech is attending New York Tech Week 2022",
+      "href": "https://thisweekinfintech.com/"
     }
   ]
 }

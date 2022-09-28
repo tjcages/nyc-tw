@@ -30,7 +30,7 @@ block content
         .p-introduction__row.js-transition-intro
           |featuring events by
         .p-introduction__row.js-transition-intro
-          for host in hosts.filter((host) => host.archive !== true).slice(0, 8)
+          for host in hosts.filter((host) => host.archive !== true).slice(0, 9)
             h1.host-meta #{host.company}
             h3.host-meta #{host.description}
             a(href=`/twitter.html?comp=${host.company}`, aria-label=`Go to ${host.company}'s preview page`).host-meta  
@@ -38,7 +38,7 @@ block content
               img(src=host.logo, alt=`${host.company} logo`)
 
         .p-introduction__row.js-transition-intro
-          for host in hosts.filter((host) => host.archive !== true).slice(8, 18)
+          for host in hosts.filter((host) => host.archive !== true).slice(9, 19)
             h1.host-meta #{host.company}
             h3.host-meta #{host.description}
             a(href=`/twitter.html?comp=${host.company}`, aria-label=`Go to ${host.company}'s preview page`).host-meta  

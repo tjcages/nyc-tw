@@ -134,6 +134,12 @@
       "href": "https://www.hustlefund.vc/"
     },
     {
+      "company": "General Catalyst",
+      "logo": "/img/logos/generalcatalyst.png",
+      "description": "General Catalyst is attending New York Tech Week 2022",
+      "href": "https://www.generalcatalyst.com/"
+    },
+    {
       "company": "Praying For Exits",
       "logo": "/img/logos/praying.png",
       "description": "Praying For Exits is attending New York Tech Week 2022",
@@ -165,13 +171,6 @@
       "logo": "/img/logos/afore.png",
       "description": "Afore Capital is attending New York Tech Week 2022",
       "href": "https://www.afore.vc/",
-      "archive": true
-    },
-    {
-      "company": "Launch House",
-      "logo": "/img/logos/launchhouse.png",
-      "description": "Launch House is attending New York Tech Week 2022",
-      "href": "https://www.launchhouse.com/",
       "archive": true
     },
     {

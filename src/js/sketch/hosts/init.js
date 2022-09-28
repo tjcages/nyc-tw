@@ -36,11 +36,19 @@ export default function () {
   const debris = [
     new Debris(200, -500, 200),
     new Debris(-350, -600, -50),
-    new Debris(-150, -800, -150),
+    // new Debris(-150, -800, -150),
     new Debris(400, -900, 0),
     new Debris(100, -1100, 250),
-    new Debris(-100, -1200, -300),
+    // new Debris(-100, -1200, -300),
     new Debris(150, -1500, -100),
+    new Debris(-300, -1700, -300),
+    // new Debris(110, -220, -100),
+
+    new Debris(-100, -2100, 250),
+    // new Debris(-400, -1900, 0),
+    // new Debris(150, -1800, -150),
+    new Debris(-200, -1500, 200),
+    new Debris(350, -1600, -50),
   ];
   const postEffect = new PostEffect(renderBack.texture);
   const elemIntro = document.getElementsByClassName("js-transition-intro");

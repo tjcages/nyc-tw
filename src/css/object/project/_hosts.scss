@@ -24,7 +24,8 @@
       align-items: flex-start;
     }
 
-    input, select {
+    input,
+    select {
       margin-top: 10px;
     }
   }
@@ -155,7 +156,7 @@
     height: 10vh;
     overflow: hidden;
     position: relative;
-    margin: 2vh auto 2vh;
+    margin: 2vh auto 0;
     opacity: 0;
     transition-property: opacity;
     &.is-shown {
@@ -358,21 +359,38 @@
 
   .h-hosts-item {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     max-width: 300px;
     background-color: rgba(255, 255, 255, 0.01);
     border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 17vw;
+    height: 14vw;
+    padding: 48px;
+
+    @media (min-width: $break-point-mobile) {
+      & {
+        padding: 0;
+      }
+    }
 
     img {
-      width: 64px;
+      width: auto;
+      max-width: 100px;
+      height: 48px;
+      max-height: 64px;
+      width: auto;
       height: auto;
-      padding: 48px;
-      transform: translateY(-5%);
+      mix-blend-mode: multiply;
+      transform: translateY(-15%);
 
       transition: transform 0.5s cubic-bezier(0, 0.55, 0.45, 1);
 
       @media (min-width: $break-point-mobile) {
         & {
-          padding: 64px;
+          padding: 0;
           transform: translateY(0%);
         }
       }

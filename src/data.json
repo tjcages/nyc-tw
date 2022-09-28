@@ -256,6 +256,126 @@
       "description": "Free Agency is attending New York Tech Week 2022",
       "href": "https://www.freeagency.com/",
       "archive": true
+    },
+
+    {
+      "company": "Adventurely",
+      "logo": "/img/logos/adventurely.jpeg",
+      "description": "Adventurely is attending New York Tech Week 2022",
+      "href": "https://adventurely.app/",
+      "archive": true
+    },
+    {
+      "company": "Amorus",
+      "logo": "/img/logos/amorus.jpeg",
+      "description": "Amorus is attending New York Tech Week 2022",
+      "href": "https://www.amorus.net/",
+      "archive": true
+    },
+    {
+      "company": "Appreciate",
+      "logo": "/img/logos/Appreciate.jpeg",
+      "description": "Appreciate is attending New York Tech Week 2022",
+      "href": "https://appreciate.it/",
+      "archive": true
+    },
+    {
+      "company": "Aravali",
+      "logo": "/img/logos/aravali.png",
+      "description": "Aravali is attending New York Tech Week 2022",
+      "href": "https://aravaliinc.com/",
+      "archive": true
+    },
+    {
+      "company": "B Capital Group",
+      "logo": "/img/logos/bcapitalgroup.png",
+      "description": "B Capital Group is attending New York Tech Week 2022",
+      "href": "https://www.bcapgroup.com/",
+      "archive": true
+    },
+    {
+      "company": "Bzaar Labs",
+      "logo": "/img/logos/bzaarlabs.jpeg",
+      "description": "Bzaar Labs is attending New York Tech Week 2022",
+      "href": "https://bzaarlabs.xyz/",
+      "archive": true
+    },
+    {
+      "company": "Chptr",
+      "logo": "/img/logos/chptr.jpeg",
+      "description": "Chptr is attending New York Tech Week 2022",
+      "href": "https://www.chptr.com/",
+      "archive": true
+    },
+    {
+      "company": "CrowdPass",
+      "logo": "/img/logos/classpass.png",
+      "description": "CrowdPass is attending New York Tech Week 2022",
+      "href": "https://www.crowdpass.co/",
+      "archive": true
+    },
+    {
+      "company": "CrowdSync",
+      "logo": "/img/logos/crowdsync.png",
+      "description": "CrowdSync is attending New York Tech Week 2022",
+      "href": "https://crowdsynctechnology.com/",
+      "archive": true
+    },
+    {
+      "company": "Daybreak",
+      "logo": "/img/logos/daybreak.jpeg",
+      "description": "Daybreak is attending New York Tech Week 2022",
+      "href": "https://www.daybreak.studio/",
+      "archive": true
+    },
+    {
+      "company": "Dropverse",
+      "logo": "/img/logos/dropverse.png",
+      "description": "Dropverse is attending New York Tech Week 2022",
+      "href": "https://www.dropverse.com/",
+      "archive": true
+    },
+    {
+      "company": "Felvin",
+      "logo": "/img/logos/felvin.jpeg",
+      "description": "Felvin is attending New York Tech Week 2022",
+      "href": "https://felvin.com/",
+      "archive": true
+    },
+    {
+      "company": "Flybridge Capital",
+      "logo": "/img/logos/flybridge.jpeg",
+      "description": "Flybridge Capital is attending New York Tech Week 2022",
+      "href": "https://www.flybridge.com/",
+      "archive": true
+    },
+    {
+      "company": "Foster",
+      "logo": "/img/logos/foster.png",
+      "description": "Foster is attending New York Tech Week 2022",
+      "href": "https://www.foster.co/",
+      "archive": true
+    },
+    {
+      "company": "ICME",
+      "logo": "/img/logos/icme.png",
+      "description": "ICME is attending New York Tech Week 2022",
+      "href": "https://www.icme.io/",
+      "archive": true
+    },
+    {
+      "company": "Intros.ai",
+      "logo": "/img/logos/intros.jpeg",
+      "description": "Intros.ai is attending New York Tech Week 2022",
+      "href": "https://intros.ai/",
+      "archive": true
+    },
+    {
+      "company": "LibGem Analytics",
+      "logo": "/img/logos/libgem.jpeg",
+      "description": "LibGem Analytics is attending New York Tech Week 2022",
+      "href": "https://www.libgem.ai/",
+      "archive": true
     }
   ]
 }

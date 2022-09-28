@@ -370,6 +370,8 @@
     height: 14vw;
     padding: 48px;
 
+    transition: background-color 0.3s cubic-bezier(0, 0.55, 0.45, 1);
+
     @media (min-width: $break-point-mobile) {
       & {
         padding: 0;
@@ -414,6 +416,8 @@
     }
 
     &:hover {
+      background-color: rgba(255, 255, 255, 0.05);
+
       img {
         transform: translateY(-5%);
       }

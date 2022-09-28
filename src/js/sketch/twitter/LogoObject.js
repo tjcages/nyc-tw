@@ -36,7 +36,7 @@ export default class TitleObject {
       if (isiOS() | isAndroid()) {
         this.obj.position.set(0, 168, 0);
       } else {
-        this.obj.position.set(0, 80, 200);
+        this.obj.position.set(0, 70, 200);
       }
 
       this.isLoaded = true;
@@ -45,8 +45,8 @@ export default class TitleObject {
   }
   createObj() {
     return new THREE.Mesh(
-      new THREE.PlaneGeometry(200, 200, 40, 10), // normal
-      // new THREE.PlaneGeometry(400, 120, 40, 10), // wide
+      new THREE.PlaneGeometry(220, 220, 40, 10), // normal
+      // new THREE.PlaneGeometry(440, 130, 40, 10), // wide
       new THREE.RawShaderMaterial({
         uniforms: this.uniforms,
         vertexShader: vs,

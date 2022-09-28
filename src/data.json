@@ -26,6 +26,13 @@
       "description": "New York Tech Week 2022",
       "path": "/twitter",
       "color": "white"
+    },
+    "hosts": {
+      "title": "New York Tech Week 2022",
+      "id": "hosts",
+      "description": "New York Tech Week 2022",
+      "path": "/hosts",
+      "color": "white"
     }
   },
   "hosts": [
@@ -193,6 +200,62 @@
       "logo": "/img/logos/twif.png",
       "description": "This Week in Fintech is attending New York Tech Week 2022",
       "href": "https://thisweekinfintech.com/"
+    },
+    {
+      "company": "Techstars",
+      "logo": "/img/logos/techstars.png",
+      "description": "Techstars is attending New York Tech Week 2022",
+      "href": "https://www.techstars.com/",
+      "archive": true
+    },
+    {
+      "company": "Diagram",
+      "logo": "/img/logos/diagram.png",
+      "description": "Diagram is attending New York Tech Week 2022",
+      "href": "https://diagram.com/",
+      "archive": true
+    },
+    {
+      "company": "Praxis Society",
+      "logo": "/img/logos/praxis.png",
+      "description": "Praxis Society is attending New York Tech Week 2022",
+      "href": "https://www.praxissociety.com/",
+      "archive": true
+    },
+    {
+      "company": "Lenny Rachitsky",
+      "logo": "/img/logos/lenny.png",
+      "description": "Lenny Rachitsky is attending New York Tech Week 2022",
+      "href": "https://www.lennyrachitsky.com/",
+      "archive": true
+    },
+    {
+      "company": "Orange DAO",
+      "logo": "/img/logos/orangedao.png",
+      "description": "Orange DAO is attending New York Tech Week 2022",
+      "href": "https://www.orangedao.xyz/",
+      "archive": true
+    },
+    {
+      "company": "Foundation Capital",
+      "logo": "/img/logos/foundation.png",
+      "description": "Foundation Capital is attending New York Tech Week 2022",
+      "href": "https://foundationcapital.com/",
+      "archive": true
+    },
+    {
+      "company": "Cheres",
+      "logo": "/img/logos/cheres.png",
+      "description": "Cheres is attending New York Tech Week 2022",
+      "href": "https://bio.site/cheres",
+      "archive": true
+    },
+    {
+      "company": "Free Agency",
+      "logo": "/img/logos/freeagency.png",
+      "description": "Free Agency is attending New York Tech Week 2022",
+      "href": "https://www.freeagency.com/",
+      "archive": true
     }
   ]
 }

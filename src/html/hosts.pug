@@ -1,0 +1,85 @@
+extends ./_layout/_page.pug
+
+block vars
+  -
+    var page = data.pages.register;
+    var hosts = data.hosts;
+
+block content
+  .l-contents.js-contents#content
+    .h-introduction
+      .h-introduction__wrap
+        .h-introduction__links.js-transition-intro
+          .h-introduction__link.js-transition-intro
+            |*
+          .h-introduction__link.js-transition-intro
+            |Oct.
+          .h-introduction__link.js-transition-intro
+            |10th
+          .h-introduction__link.js-transition-intro
+            |–
+          .h-introduction__link.js-transition-intro
+            |16th
+          .h-introduction__link.js-transition-intro
+            |*
+
+      .p-infinite-wall.js-transition-intro
+        - var array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+        each arr in array
+          .p-infinite-wall__item
+            |NEW YORK TECH WEEK
+          .p-infinite-wall__item
+            |//////////
+          .p-infinite-wall__item
+            |
+            +textLink("https://twitter.com/NYCTechWeek", "FOLLOW ALONG", "_blank")
+            a(href="https://twitter.com/NYCTechWeek", target="_blank")#twitter
+              +iconTwitter(14)
+          .p-infinite-wall__item
+            |//////////
+
+  .p-dummy-scroll.js-dummy-scroll
+
+  .l-contents.js-contents
+    .h-host-event.js-contents#register
+      .h-host-event__row
+        |OFFICIAL HOSTS FOR NYC TECH WEEK 
+      //- .h-host-event__row
+      //-   |Provide details for your event to be included in the official list
+      .h-host-event__row__bottomspace
+        |
+        +textLinkOpen("/register.html", "- Host an Event -", "_blank")
+
+        .h-introduction__follow.js-transition-intro
+          .p-introduction__follow-in.p-introduction__follow-in--1
+          .p-introduction__follow-in.p-introduction__follow-in--2
+          .p-introduction__follow-in.p-introduction__follow-in--3
+
+      .h-hosts-container
+        for host in hosts
+          .h-hosts-item
+            h1.host-meta #{host.company}
+            h3.host-meta #{host.description}
+            a(href=`/twitter.html?comp=${host.company}`, aria-label=`Go to ${host.company}'s preview page`).host-meta  
+            a(href=host.href, target="_blank", aria-label=`Go to ${host.company}'s website`).host-info
+              img(src=host.logo, alt=`${host.company} logo`)
+              h4.host-name #{host.company}
+          
+      .p-infinite-wall-bottom.js-transition-intro
+          - var array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+          each arr in array
+            .p-infinite-wall__item
+              |
+              +textLink("https://twitter.com/NYCTechWeek", "FOLLOW ALONG", "_blank")
+              a(href="https://twitter.com/NYCTechWeek", target="_blank")#twitter
+                +iconTwitter(14)
+            .p-infinite-wall__item
+              |//////////
+            .p-infinite-wall__item
+              |NEW YORK TECH WEEK
+            .p-infinite-wall__item
+              |//////////
+
+  .l-contents.js-contents
+
+  canvas(id="canvas-webgl", class="p-canvas-webgl")

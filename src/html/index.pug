@@ -44,7 +44,8 @@ block content
             a(href=`/twitter.html?comp=${host.company}`, aria-label=`Go to ${host.company}'s preview page`).host-meta  
             a(href=host.href, target="_blank", aria-label=`Go to ${host.company}'s website`).host-info
               img(src=host.logo, alt=`${host.company} logo`)
-          |+More
+          |
+          +textLink("/hosts.html", "+More")
 
         .p-introduction__follow.js-transition-intro
           .p-introduction__follow-in.p-introduction__follow-in--1

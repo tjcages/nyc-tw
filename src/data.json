@@ -236,6 +236,13 @@
       "archive": true
     },
     {
+      "company": "Amazon Web Services",
+      "logo": "/img/logos/aws.png",
+      "description": "Amazon Web Services is attending New York Tech Week 2022",
+      "href": "https://aws.amazon.com/",
+      "archive": true
+    },
+    {
       "company": "Praxis Society",
       "logo": "/img/logos/praxis.png",
       "description": "Praxis Society is attending New York Tech Week 2022",
@@ -640,6 +647,349 @@
       "logo": "/img/logos/rise.jpeg",
       "description": "Rise is attending New York Tech Week 2022",
       "href": "https://joinrise.co/",
+      "archive": true
+    },
+    {
+      "company": "Lines",
+      "logo": "/img/logos/lines.jpeg",
+      "description": "Lines is attending New York Tech Week 2022",
+      "href": "https://lines.by/",
+      "archive": true
+    },
+    {
+      "company": "AlgoPear",
+      "logo": "/img/logos/algopear.jpeg",
+      "description": "AlgoPear is attending New York Tech Week 2022",
+      "href": "https://www.algopear.com/",
+      "archive": true
+    },
+    {
+      "company": "Optemization",
+      "logo": "/img/logos/optemization.jpeg",
+      "description": "Optemization is attending New York Tech Week 2022",
+      "href": "https://optemization.com/",
+      "archive": true
+    },
+    {
+      "company": "Select",
+      "logo": "/img/logos/select.jpeg",
+      "description": "Select is attending New York Tech Week 2022",
+      "href": "https://www.meetselect.com/",
+      "archive": true
+    },
+    {
+      "company": "TXN Advisors",
+      "logo": "/img/logos/txnadvisors.jpeg",
+      "description": "TXN Advisors is attending New York Tech Week 2022",
+      "href": "https://txnadvisors.com/",
+      "archive": true
+    },
+    {
+      "company": "Social Current",
+      "logo": "/img/logos/socialcurrent.jpeg",
+      "description": "Social Current is attending New York Tech Week 2022",
+      "href": "https://www.socialcurrant.com/",
+      "archive": true
+    },
+    {
+      "company": "Plain Sight",
+      "logo": "/img/logos/plainsight.jpeg",
+      "description": "Plain Sight is attending New York Tech Week 2022",
+      "href": "https://www.plainsight.app/",
+      "archive": true
+    },
+    {
+      "company": "Quantbase",
+      "logo": "/img/logos/quantbase.jpeg",
+      "description": "Quantbase is attending New York Tech Week 2022",
+      "href": "https://www.getquantbase.com/",
+      "archive": true
+    },
+    {
+      "company": "The Org",
+      "logo": "/img/logos/theorg.jpeg",
+      "description": "The Org is attending New York Tech Week 2022",
+      "href": "https://theorg.com/",
+      "archive": true
+    },
+    {
+      "company": "Gitcoin",
+      "logo": "/img/logos/gitcoin.jpeg",
+      "description": "Gitcoin is attending New York Tech Week 2022",
+      "href": "https://gitcoin.co/",
+      "archive": true
+    },
+    {
+      "company": "GSD Venture Studio",
+      "logo": "/img/logos/gsd.jpeg",
+      "description": "GSD Venture Studio is attending New York Tech Week 2022",
+      "href": "https://www.gsdvs.com/",
+      "archive": true
+    },
+    {
+      "company": "SaveAway",
+      "logo": "/img/logos/safeaway.jpeg",
+      "description": "SaveAway is attending New York Tech Week 2022",
+      "href": "https://inspirave.com/",
+      "archive": true
+    },
+    {
+      "company": "BBG Ventures",
+      "logo": "/img/logos/bbg.jpeg",
+      "description": "BBG Ventures is attending New York Tech Week 2022",
+      "href": "https://www.bbgventures.com/",
+      "archive": true
+    },
+    {
+      "company": "Absci",
+      "logo": "/img/logos/absci.jpeg",
+      "description": "Absci is attending New York Tech Week 2022",
+      "href": "https://www.absci.com/",
+      "archive": true
+    },
+    {
+      "company": "Capchase",
+      "logo": "/img/logos/capchase.jpeg",
+      "description": "Capchase is attending New York Tech Week 2022",
+      "href": "https://www.capchase.com/",
+      "archive": true
+    },
+    {
+      "company": "Scout VC",
+      "logo": "/img/logos/scout.jpeg",
+      "description": "Scout VC is attending New York Tech Week 2022",
+      "href": "https://www.scout.vc/",
+      "archive": true
+    },
+    {
+      "company": "Rho",
+      "logo": "/img/logos/rho.jpeg",
+      "description": "Rho is attending New York Tech Week 2022",
+      "href": "https://www.rho.co/",
+      "archive": true
+    },
+    {
+      "company": "Block Dojo",
+      "logo": "/img/logos/blackdojo.jpeg",
+      "description": "Block Dojo is attending New York Tech Week 2022",
+      "href": "https://blockdojo.io/",
+      "archive": true
+    },
+    {
+      "company": "Anthemis",
+      "logo": "/img/logos/anthemis.jpeg",
+      "description": "Anthemis is attending New York Tech Week 2022",
+      "href": "https://www.anthemis.com/",
+      "archive": true
+    },
+    {
+      "company": "Starshot Capital",
+      "logo": "/img/logos/starshot.png",
+      "description": "Starshot Capital is attending New York Tech Week 2022",
+      "href": "https://starshotcapital.com/",
+      "archive": true
+    },
+    {
+      "company": "Parthean",
+      "logo": "/img/logos/parthean.jpeg",
+      "description": "Parthean is attending New York Tech Week 2022",
+      "href": "https://www.parthean.com/",
+      "archive": true
+    },
+    {
+      "company": "SelectFew",
+      "logo": "/img/logos/selectfew.jpeg",
+      "description": "SelectFew is attending New York Tech Week 2022",
+      "href": "https://www.selectfew.co/",
+      "archive": true
+    },
+    {
+      "company": "MetaEngine",
+      "logo": "/img/logos/metaengine.jpeg",
+      "description": "MetaEngine is attending New York Tech Week 2022",
+      "href": "https://metaengine.gg/",
+      "archive": true
+    },
+    {
+      "company": "Journey",
+      "logo": "/img/logos/journey.jpeg",
+      "description": "Journey is attending New York Tech Week 2022",
+      "href": "https://journey.io/",
+      "archive": true
+    },
+    {
+      "company": "Betaworks Ventures",
+      "logo": "/img/logos/betaworks.jpeg",
+      "description": "Betaworks Ventures is attending New York Tech Week 2022",
+      "href": "https://betaworksventures.com/",
+      "archive": true
+    },
+    {
+      "company": "Kapor Capital",
+      "logo": "/img/logos/kapor.jpeg",
+      "description": "Kapor Capital is attending New York Tech Week 2022",
+      "href": "https://www.kaporcapital.com/",
+      "archive": true
+    },
+    {
+      "company": "Ballbox",
+      "logo": "/img/logos/ballbox.jpeg",
+      "description": "Ballbox is attending New York Tech Week 2022",
+      "href": "https://playballbox.com/s/",
+      "archive": true
+    },
+    {
+      "company": "Diem",
+      "logo": "/img/logos/diem.jpeg",
+      "description": "Diem is attending New York Tech Week 2022",
+      "href": "https://apps.apple.com/us/app/diem-social-universe/id1524855792",
+      "archive": true
+    },
+    {
+      "company": "Translink Capital",
+      "logo": "/img/logos/translink.jpeg",
+      "description": "Translink Capital is attending New York Tech Week 2022",
+      "href": "https://www.translinkcapital.com/",
+      "archive": true
+    },
+    {
+      "company": "Payload",
+      "logo": "/img/logos/payload.jpeg",
+      "description": "Payload is attending New York Tech Week 2022",
+      "href": "https://payloadspace.com/",
+      "archive": true
+    },
+    {
+      "company": "MindStand",
+      "logo": "/img/logos/mindstand.jpeg",
+      "description": "MindStand is attending New York Tech Week 2022",
+      "href": "https://www.mindstand.com/mindstand-ai",
+      "archive": true
+    },
+    {
+      "company": "Light Pong",
+      "logo": "/img/logos/lightpong.jpeg",
+      "description": "Light Pong is attending New York Tech Week 2022",
+      "href": "https://www.playlightpong.com/",
+      "archive": true
+    },
+    {
+      "company": "Cowboy Ventures",
+      "logo": "/img/logos/cowboy.jpeg",
+      "description": "Cowboy Ventures is attending New York Tech Week 2022",
+      "href": "https://www.cowboy.vc/",
+      "archive": true
+    },
+    {
+      "company": "DAO Ventures",
+      "logo": "/img/logos/daoventures.jpeg",
+      "description": "DAO Ventures is attending New York Tech Week 2022",
+      "href": "https://www.daoventures.co/",
+      "archive": true
+    },
+    {
+      "company": "Homeroom",
+      "logo": "/img/logos/homeroom.jpeg",
+      "description": "Homeroom is attending New York Tech Week 2022",
+      "href": "https://homeroom.club/",
+      "archive": true
+    },
+    {
+      "company": "Hannah Grey",
+      "logo": "/img/logos/hannahgrey.jpeg",
+      "description": "Hannah Grey is attending New York Tech Week 2022",
+      "href": "https://www.hannahgrey.com/",
+      "archive": true
+    },
+    {
+      "company": "Aviato",
+      "logo": "/img/logos/aviato.jpeg",
+      "description": "Aviato is attending New York Tech Week 2022",
+      "href": "https://www.joinaviato.com/",
+      "archive": true
+    },
+    {
+      "company": "Muivona Capital",
+      "logo": "/img/logos/muivona.jpeg",
+      "description": "Muivona Capital is attending New York Tech Week 2022",
+      "href": "https://www.muivonacap.com/",
+      "archive": true
+    },
+    {
+      "company": "Casting Form",
+      "logo": "/img/logos/casting.jpeg",
+      "description": "Casting Form is attending New York Tech Week 2022",
+      "href": "https://www.castingform.com/",
+      "archive": true
+    },
+    {
+      "company": "Entreprenista",
+      "logo": "/img/logos/entreprenista.jpeg",
+      "description": "Entreprenista is attending New York Tech Week 2022",
+      "href": "https://entreprenista.com/",
+      "archive": true
+    },
+    {
+      "company": "Osage University Partners",
+      "logo": "/img/logos/osage.jpeg",
+      "description": "Osage University Partners is attending New York Tech Week 2022",
+      "href": "http://oup.vc/",
+      "archive": true
+    },
+    {
+      "company": "Manhattan Venture Partners",
+      "logo": "/img/logos/manhattanventure.jpeg",
+      "description": "Manhattan Venture Partners is attending New York Tech Week 2022",
+      "href": "https://www.mvp.vc/",
+      "archive": true
+    },
+    {
+      "company": "Maxwell Social",
+      "logo": "/img/logos/maxwell.jpeg",
+      "description": "Maxwell Social is attending New York Tech Week 2022",
+      "href": "https://maxwellsocial.com/",
+      "archive": true
+    },
+    {
+      "company": "Stellation Capital",
+      "logo": "/img/logos/stellation.jpeg",
+      "description": "Stellation Capital is attending New York Tech Week 2022",
+      "href": "https://www.stellation.vc/",
+      "archive": true
+    },
+    {
+      "company": "Coda",
+      "logo": "/img/logos/coda.jpeg",
+      "description": "Coda is attending New York Tech Week 2022",
+      "href": "https://coda.io/",
+      "archive": true
+    },
+    {
+      "company": "MGV",
+      "logo": "/img/logos/mgv.jpeg",
+      "description": "MGV is attending New York Tech Week 2022",
+      "href": "https://www.mgv.vc/",
+      "archive": true
+    },
+    {
+      "company": "Founders Fund",
+      "logo": "/img/logos/foundersfund.png",
+      "description": "Founders Fund is attending New York Tech Week 2022",
+      "href": "https://foundersfund.com/",
+      "archive": true
+    },
+    {
+      "company": "Lama",
+      "logo": "/img/logos/lama.png",
+      "description": "Lama is attending New York Tech Week 2022",
+      "href": "https://llama.xyz/",
+      "archive": true
+    },
+    {
+      "company": "First Republic",
+      "logo": "/img/logos/firstrepublic.jpeg",
+      "description": "First Republic is attending New York Tech Week 2022",
+      "href": "https://www.firstrepublic.com/",
       "archive": true
     }
   ]

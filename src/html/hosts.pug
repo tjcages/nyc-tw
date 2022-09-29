@@ -44,8 +44,8 @@ block content
     .h-host-event.js-contents#register
       .h-host-event__row
         |OFFICIAL HOSTS FOR NYC TECH WEEK 
-      //- .h-host-event__row
-      //-   |Provide details for your event to be included in the official list
+      .h-host-event__row
+        |Provide details for your event to be included in the official list
       .h-host-event__row__bottomspace
         |
         +textLinkOpen("/register.html", "- Host an Event -", "_blank")
@@ -64,6 +64,17 @@ block content
             a(href=host.href, target="_blank", aria-label=`Go to ${host.company}'s website`).host-info
               img(src=host.logo, alt=`${host.company} logo`)
               h4.host-name #{host.company}
+
+      .h-introduction__follow.js-transition-intro
+        .p-introduction__follow-in.p-introduction__follow-in--1
+        .p-introduction__follow-in.p-introduction__follow-in--2
+        .p-introduction__follow-in.p-introduction__follow-in--3
+
+      .h-host-event__row
+        |Want to host an event for New York Tech Week?
+      .h-host-event__row__bottomspace
+        |
+        +textLinkOpen("/register.html", "- Register Here -", "_blank")
           
       .p-infinite-wall-bottom.js-transition-intro
           - var array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]

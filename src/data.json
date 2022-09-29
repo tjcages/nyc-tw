@@ -308,9 +308,16 @@
     },
     {
       "company": "Appreciate",
-      "logo": "/img/logos/Appreciate.jpeg",
+      "logo": "/img/logos/appreciate.jpeg",
       "description": "Appreciate is attending New York Tech Week 2022",
       "href": "https://appreciate.it/",
+      "archive": true
+    },
+    {
+      "company": "Dorm Room Fund",
+      "logo": "/img/logos/dormroom.png",
+      "description": "Dorm Room Fund is attending New York Tech Week 2022",
+      "href": "https://www.dormroomfund.com/",
       "archive": true
     },
     {

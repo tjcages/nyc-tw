@@ -387,6 +387,7 @@
       height: auto;
       mix-blend-mode: multiply;
       transform: translateY(-15%);
+      filter: grayscale(100%) contrast(300%);
 
       transition: transform 0.5s cubic-bezier(0, 0.55, 0.45, 1);
 

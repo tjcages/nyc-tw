@@ -76,7 +76,8 @@
       "company": "Simulate",
       "logo": "/img/logos/simulate.png",
       "description": "Simulate is attending New York Tech Week 2022",
-      "href": "https://simulate.com/"
+      "href": "https://simulate.com/",
+      "archive": true
     },
     {
       "company": "Banana Capital",
@@ -138,6 +139,12 @@
       "logo": "/img/logos/generalcatalyst.png",
       "description": "General Catalyst is attending New York Tech Week 2022",
       "href": "https://www.generalcatalyst.com/"
+    },
+    {
+      "company": "Orange DAO",
+      "logo": "/img/logos/orangedao.png",
+      "description": "Orange DAO is attending New York Tech Week 2022",
+      "href": "https://www.orangedao.xyz/"
     },
     {
       "company": "Praying For Exits",
@@ -261,13 +268,6 @@
       "logo": "/img/logos/lenny.png",
       "description": "Lenny Rachitsky is attending New York Tech Week 2022",
       "href": "https://www.lennyrachitsky.com/",
-      "archive": true
-    },
-    {
-      "company": "Orange DAO",
-      "logo": "/img/logos/orangedao.png",
-      "description": "Orange DAO is attending New York Tech Week 2022",
-      "href": "https://www.orangedao.xyz/",
       "archive": true
     },
     {

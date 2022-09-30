@@ -54,7 +54,7 @@ export const getEventDetailsFromDatabase = async () => {
       if (time === "12:00 AM") time = "TBD"
       event.date = date;
       event.time = time;
-      event.day = toDayName(date.getDay());
+      event.day = date.toLocaleDateString('en-US', { weekday: 'long' });
       return event;
     });
     const groupedEvents = groupBy(events, "day");
@@ -75,27 +75,9 @@ export const getEventDetailsFromDatabase = async () => {
   }
 };
 
-function toDayName(index) {
-  var weekdays = new Array(7);
-  weekdays[0] = "Sunday";
-  weekdays[1] = "Monday";
-  weekdays[2] = "Tuesday";
-  weekdays[3] = "Wednesday";
-  weekdays[4] = "Thursday";
-  weekdays[5] = "Friday";
-  weekdays[6] = "Saturday";
-  return weekdays[index];
-}
-
 function groupBy(xs, key) {
   return xs.reduce(function (rv, x) {
     (rv[x[key]] = rv[x[key]] || []).push(x);
     return rv;
   }, {});
 }
-
-// export const countAttendees = async () => {
-//   const querySnapshot = await getDocs(collection(db, "attendees"));
-//   const size = querySnapshot.size
-//   console.log("Attendees count: ", size)
-// }

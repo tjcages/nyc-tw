@@ -144,42 +144,45 @@ export default function () {
 
     groupedEvents.forEach((events, index) => {
       const dayIndex = weekdays[index];
-      console.log(events);
-      events.sort((a, b) => Number(a.date) - Number(b.date));
-      events.forEach((event, index) => {
-        const eventElem = document.getElementById(dayIndex + index);
-        eventElem.style.display = "flex";
+      if (events && events.length > 0) {
+        events.sort((a, b) => Number(a.date) - Number(b.date));
+        events.forEach((event, index) => {
+          const eventElem = document.getElementById(dayIndex + index);
+          eventElem.style.display = "flex";
 
-        eventElem.querySelector(".a-event__title").innerHTML =
-          event["Event Title"];
-        eventElem.querySelector(".a-event__details").innerHTML =
-          "Hosted by:  " + event["Company"];
-        if (event["Event Location"]) {
-          eventElem.querySelector(".a-event__description").innerHTML =
-            "Location:  " + event["Event Location"];
-        } else {
-          eventElem.querySelector(".a-event__description").style.display =
-            "none";
-        }
-        if (event.time) {
-          if (event.time === "TBD") {
-            eventElem.querySelector(".a-event__time").style.display = "none";
+          eventElem.querySelector(".a-event__title").innerHTML =
+            event["Event Title"];
+          eventElem.querySelector(".a-event__details").innerHTML =
+            "Hosted by:  " + event["Company"];
+          if (event["Event Location"]) {
+            eventElem.querySelector(".a-event__description").innerHTML =
+              "Location:  " + event["Event Location"];
           } else {
-            eventElem.querySelector(".a-event__time").innerHTML =
-              "Time:  " + event.time;
+            eventElem.querySelector(".a-event__description").style.display =
+              "none";
           }
-        } else {
-          eventElem.querySelector(".a-event__time").style.display = "none";
-        }
-        if (event["Event Link"]) {
-          eventElem.querySelector("#link").href = event["Event Link"];
-        } else {
-          eventElem.querySelector(".a-event__link").style.display = "none";
-        }
-        if (event["Highlighted"]) {
-          eventElem.classList.add("highlighted");
-        }
-      });
+          if (event.time) {
+            if (event.time === "TBD") {
+              eventElem.querySelector(".a-event__time").style.display = "none";
+            } else {
+              eventElem.querySelector(".a-event__time").innerHTML =
+                "Time:  " + event.time;
+            }
+          } else {
+            eventElem.querySelector(".a-event__time").style.display = "none";
+          }
+          if (event["Event Link"]) {
+            eventElem.querySelector("#link").href = event["Event Link"];
+          } else {
+            eventElem.querySelector(".a-event__link").style.display = "none";
+          }
+          if (event["Highlighted"]) {
+            eventElem.classList.add("highlighted");
+          }
+        });
+      } else {
+        document.getElementById(dayIndex+"title").style.display = "none";
+      }
     });
 
     const allFilter = document.getElementById("allSelected");

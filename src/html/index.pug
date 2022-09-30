@@ -2,8 +2,9 @@ extends ./_layout/_page.pug
 
 block vars
   -
-    var page = data.pages.index;
+    var page = data.pages.agenda;
     var hosts = data.hosts;
+    var groupedEvents = [];
 
 block content
   .l-meta
@@ -54,7 +55,7 @@ block content
 
         .p-introduction__row.js-transition-intro#registerScroll
           |
-          +textLink("#register", "Register")
+          +textLink("#register", "Agenda")
 
       .p-infinite-wall.js-transition-intro
         - var array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
@@ -74,30 +75,36 @@ block content
   .p-dummy-scroll.js-dummy-scroll
 
   .l-contents.js-contents
-    .p-host-event.js-contents#register
-      .p-host-event__row
-        |REGISTER FOR NYC TECH WEEK
-      .r-host-apply
-        .r-introduction__input
+    .a-official-agenda-content.js-contents#registerToPoint
+      .a-host-event__row
+        .a-large-text
+          |OFFICIAL AGENDA FOR NYC TECH WEEK
+      .a-host-event__row
+        |Interested in attending?
+        +fakeTextLink("Register here", "openRegister")
+
+    .a-host-event.js-contents#register
+      .a-host-apply
+        .a-introduction__input
           |Full Name
           input(placeholder="Your name" type='text' name='name')#name
-        .r-introduction__input
+        .a-introduction__input
           |Social
           input(placeholder="Your Twitter handle or LinkedIn" type='text' name='social')#social
 
-      .r-host-apply
-        .r-introduction__input
+      .a-host-apply
+        .a-introduction__input
           |Email Address
           input(placeholder="Your email" type='email' name='email')#email
-        .r-introduction__input
+        .a-introduction__input
           |Company
           input(placeholder="Your company" type='text' name='company')#company
 
-      .r-host-apply
-        .r-introduction__input
+      .a-host-apply
+        .a-introduction__input
           |Title
           input(placeholder="Your title" type='text' name='title')#title
-        .r-introduction__input
+        .a-introduction__input
           |Attendance
           select(name='type')#type
             option(value='', selected='selected') -- Select attendee type --
@@ -105,24 +112,24 @@ block content
             option(value="Host") I'd like to host an event
       
       .p-additional-fields#eventDetails
-        .r-host-event__row
+        .a-host-event__row
           |TECH WEEK EVENT DETAILS
         .p-host-event__row__space
           |
           +textLinkOpen("https://www.notion.so/partyround/Hosting-an-NYC-Tech-Week-Event-53822a046f06463db44545e5eb2b5dc8", "- Guide to Hosting an Event -", "_blank")
-        .r-host-apply
-          .r-introduction__input
+        .a-host-apply
+          .a-introduction__input
             |Event Title
             input(placeholder="Event title" type='text' name='event-title')#event-title
-          .r-introduction__input
+          .a-introduction__input
             |Event Date & Time
             input(placeholder="Event date & time" type='datetime-local' name='event-date')#event-date
 
-        .r-host-apply
-          .r-introduction__input
+        .a-host-apply
+          .a-introduction__input
             |Event Location
             input(placeholder="Event location" type='text' name='event-location')#event-location
-          .r-introduction__input
+          .a-introduction__input
             |Event Capacity
             select(name='capacity')#capacity
               option(value='', selected='selected') -- Select capacity level --
@@ -130,13 +137,13 @@ block content
               option(value="Medium") Medium - 25 to 50
               option(value="Large") Large - 50+
         
-        .r-host-apply
-          .r-introduction__input
+        .a-host-apply
+          .a-introduction__input
             |Registration or Promotional Link (optional)
             input(placeholder="Event link" type='url' name='event-link')#event-link
           
-        .r-host-apply
-          .r-introduction__textarea
+        .a-host-apply
+          .a-introduction__textarea
             |Event Description
             textarea(placeholder="Event description" type='text' name='event-description')#event-description
 
@@ -154,6 +161,45 @@ block content
       .p-success#success
         |Successful registration, now follow along on 
         +textLink("https://twitter.com/NYCTechWeek", " Twitter", "_blank")
+
+
+    .a-event-schedule
+      .a-event-filters
+        .a-event-options
+          +fakeClosedTextLink("All", "allSelected")
+        .a-event-options
+          +fakeClosedTextLink("Monday", "mondaySelected")
+        .a-event-options
+          +fakeClosedTextLink("Tuesday", "tuesdaySelected")
+        .a-event-options
+          +fakeClosedTextLink("Wednesday", "wednesdaySelected")
+        .a-event-options
+          +fakeClosedTextLink("Thursday", "thursdaySelected")
+        .a-event-options
+          +fakeClosedTextLink("Friday", "fridaySelected")
+        .a-event-options
+          +fakeClosedTextLink("Saturday", "saturdaySelected")
+        .a-event-options
+          +fakeClosedTextLink("Sunday", "sundaySelected")
+
+      .a-events-container
+        .a-fullday
+          - var weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+          each day in weekdays
+            .a-day(id=day+"title")
+              |#{day}
+            .a-events(id=day+"events")
+              - var events = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+              each event in events
+                .a-event(id=day + event)
+                  .a-event__title
+                  .a-event__deets
+                    .a-event__details
+                    .a-event__time
+                  .a-event__link
+                    +textLinkOpen("", "Event link", "_blank", "link")
+                
+
 
       .p-infinite-wall-bottom.js-transition-intro
           - var array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]

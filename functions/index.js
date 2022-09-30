@@ -11,6 +11,8 @@ Airtable.configure({
 });
 var base = new Airtable.base(""); // removed for security
 
+const cors = require("cors")({ origin: true });
+
 // Listens for new messages added to /messages/:documentId/original and creates an
 // uppercase version of the message to /messages/:documentId/uppercase
 exports.monitorRegistrations = functions.firestore
@@ -124,3 +126,37 @@ exports.monitorEvents = functions.firestore
 //       });
 //   }
 // );
+
+// Retrieve Host Events
+exports.getEvents = functions.https.onRequest((req, res) => {
+  cors(req, res, () => {
+    var events = [];
+    base("NYC Events")
+      .select({
+        filterByFormula: "IF({Agenda Status} = 'Approved', TRUE(), FALSE())",
+        view: "Event Approvals View"
+      })
+      .eachPage(
+        function page(records, fetchNextPage) {
+          // This function (`page`) will get called for each page of records.
+
+          records.forEach(function (record) {
+            const data = record.fields;
+            events.push(data);
+          });
+
+          // To fetch the next page of records, call `fetchNextPage`.
+          // If there are more records, `page` will get called again.
+          // If there are no more records, `done` will get called.
+          fetchNextPage();
+        },
+        function done(err) {
+          if (err) {
+            return res.json({ status: "error", error: err });
+          }
+          // success fetching records
+          return res.json({ status: "success", data: events });
+        }
+      );
+  });
+});

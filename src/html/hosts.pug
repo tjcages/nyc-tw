@@ -2,7 +2,7 @@ extends ./_layout/_page.pug
 
 block vars
   -
-    var page = data.pages.hosts;
+    var page = data.pages.register;
     var hosts = data.hosts;
 
 block content
@@ -10,7 +10,7 @@ block content
     .h-introduction
       .h-introduction__wrap
         .h-introduction__links.js-transition-intro
-          .h-introduction__link.js-transition-intro
+          .h-introduction__link.js-transition-intro#ass
             |*
           .h-introduction__link.js-transition-intro
             |Oct.
@@ -20,7 +20,7 @@ block content
             |–
           .h-introduction__link.js-transition-intro
             |16th
-          .h-introduction__link.js-transition-intro
+          .h-introduction__link.js-transition-intro#ass
             |*
 
       .p-infinite-wall.js-transition-intro

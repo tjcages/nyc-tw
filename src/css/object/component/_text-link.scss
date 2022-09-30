@@ -1,6 +1,9 @@
 .c-text-link {
   display: inline-block;
   position: relative;
+
+  cursor: pointer;
+
   &__label {
     display: inline-block;
     position: relative;
@@ -63,6 +66,8 @@
 .o-text-link {
   display: inline-block;
   position: relative;
+  cursor: pointer;
+
   &__label {
     display: inline-block;
     position: relative;

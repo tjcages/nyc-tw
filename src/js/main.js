@@ -23,7 +23,9 @@ if (pageId == "index") {
       require("./sketch/twitter/init.js").default();
       break;
     case "hosts":
-      require("./sketch/hosts/init.js").default();
+      require("./sketch/register/init.js").default();
+    case "agenda":
+      require("./sketch/agenda/init.js").default();
       break;
     default:
   }

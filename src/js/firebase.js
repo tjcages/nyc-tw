@@ -37,6 +37,63 @@ export const registerEventDetailsToDatabase = async (event) => {
   }
 };
 
+export const getEventDetailsFromDatabase = async () => {
+  try {
+    const data = await fetch(
+      "https://us-central1-new-york-tech-week.cloudfunctions.net/getEvents",
+      {
+        mode: "cors",
+      }
+    );
+
+    const json = await data.json(); //extract JSON from the http response
+    const events = json.data;
+    events.map((event) => {
+      const date = new Date(event["Event Date"]);
+      var time = date.toLocaleTimeString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true });
+      if (time === "12:00 AM") time = "TBD"
+      event.date = date;
+      event.time = time;
+      event.day = toDayName(date.getDay());
+      return event;
+    });
+    const groupedEvents = groupBy(events, "day");
+    const finalGroup = [
+      groupedEvents["Monday"],
+      groupedEvents["Tuesday"],
+      groupedEvents["Wednesday"],
+      groupedEvents["Thursday"],
+      groupedEvents["Friday"],
+      groupedEvents["Saturday"],
+      groupedEvents["Sunday"],
+    ];
+
+    return finalGroup;
+  } catch (e) {
+    console.error("Error getting data: ", e);
+    return [];
+  }
+};
+
+function toDayName(index) {
+  var weekdays = new Array(7);
+  weekdays[0] = "Sunday";
+  weekdays[1] = "Monday";
+  weekdays[2] = "Tuesday";
+  weekdays[3] = "Wednesday";
+  weekdays[4] = "Thursday";
+  weekdays[5] = "Friday";
+  weekdays[6] = "Saturday";
+  return weekdays[index];
+}
+
+function groupBy(xs, key) {
+  return xs.reduce(function (rv, x) {
+    (rv[x[key]] = rv[x[key]] || []).push(x);
+    return rv;
+  }, {});
+}
+
 // export const countAttendees = async () => {
 //   const querySnapshot = await getDocs(collection(db, "attendees"));
 //   const size = querySnapshot.size

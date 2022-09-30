@@ -154,13 +154,6 @@ export default function () {
             event["Event Title"];
           eventElem.querySelector(".a-event__details").innerHTML =
             "Hosted by:  " + event["Company"];
-          if (event["Event Location"]) {
-            eventElem.querySelector(".a-event__description").innerHTML =
-              "Location:  " + event["Event Location"];
-          } else {
-            eventElem.querySelector(".a-event__description").style.display =
-              "none";
-          }
           if (event.time) {
             if (event.time === "TBD") {
               eventElem.querySelector(".a-event__time").style.display = "none";
@@ -171,7 +164,7 @@ export default function () {
           } else {
             eventElem.querySelector(".a-event__time").style.display = "none";
           }
-          if (event["Event Link"]) {
+          if (event["Event Link"] && event["Event Link"] !== "") {
             eventElem.querySelector("#link").href = event["Event Link"];
           } else {
             eventElem.querySelector(".a-event__link").style.display = "none";

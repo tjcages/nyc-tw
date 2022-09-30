@@ -679,6 +679,20 @@
       "archive": true
     },
     {
+      "company": "Bain Capital",
+      "logo": "/img/logos/baincapital.jpeg",
+      "description": "Bain Capital is attending New York Tech Week 2022",
+      "href": "https://baincapitalventures.com/",
+      "archive": true
+    },
+    {
+      "company": "QED",
+      "logo": "/img/logos/qed.jpeg",
+      "description": "QED is attending New York Tech Week 2022",
+      "href": "https://www.qedinvestors.com/",
+      "archive": true
+    },
+    {
       "company": "AlgoPear",
       "logo": "/img/logos/algopear.jpeg",
       "description": "AlgoPear is attending New York Tech Week 2022",

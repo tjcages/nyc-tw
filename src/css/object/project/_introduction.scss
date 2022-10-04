@@ -133,13 +133,20 @@
 .p-introduction {
   width: 100%;
   overflow: hidden;
-  height: 100vh;
+  height: 95vh;
   box-sizing: border-box;
   line-height: 1.5;
   z-index: 10;
   color: #fff;
   text-align: center;
   letter-spacing: 0.2em;
+
+  @media (min-width: $break-point-mobile) {
+    & {
+      height: 100vh;
+    }
+  }
+
   &__wrap {
     position: absolute;
     right: 0;

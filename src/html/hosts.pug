@@ -9,6 +9,8 @@ block content
   .l-contents.js-contents#content
     .h-introduction
       .h-introduction__wrap
+        .p-introduction__row.js-transition-intro#capitalText
+          +textLink("/hosts.html", "To celebrate the launch of Capital")#capitalLink
         .h-introduction__links.js-transition-intro
           .h-introduction__link.js-transition-intro#ass
             |*
@@ -32,9 +34,7 @@ block content
             |//////////
           .p-infinite-wall__item
             |
-            +textLink("https://twitter.com/capitalxyz", "TO CELEBRATE THE LAUNCH OF CAPITAL", "_blank")
-            a(href="https://twitter.com/capitalxyz", target="_blank")#twitter
-              +iconTwitter(14)
+            +textLink("https://capital.xyz", "TO CELEBRATE THE LAUNCH OF CAPITAL", "_blank")
           .p-infinite-wall__item
             |//////////
 
@@ -81,9 +81,7 @@ block content
           each arr in array
             .p-infinite-wall__item
               |
-              +textLink("https://twitter.com/capitalxyz", "TO CELEBRATE THE LAUNCH OF CAPITAL", "_blank")
-              a(href="https://twitter.com/capitalxyz", target="_blank")#twitter
-                +iconTwitter(14)
+              +textLink("https://capital.xyz", "TO CELEBRATE THE LAUNCH OF CAPITAL", "_blank")
             .p-infinite-wall__item
               |//////////
             .p-infinite-wall__item
@@ -91,6 +89,10 @@ block content
             .p-infinite-wall__item
               |//////////
 
-  .l-contents.js-contents
+  a(href="https://capital.xyz", target="_blank", id="capital")
+    .capital-notice
+      img(src="/img/logos/capital.png", alt=`Capital logo`)
+      h5 Modern companies are built on Capital
+      p Available now on iOS and Web.
 
   canvas(id="canvas-webgl", class="p-canvas-webgl")

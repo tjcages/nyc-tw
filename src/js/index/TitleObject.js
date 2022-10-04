@@ -35,7 +35,7 @@ export default class TitleObject {
       if (isiOS() | isAndroid()) {
         this.obj.position.set(0, 44, 0);
       } else {
-        this.obj.position.set(0, 8, 0);
+        this.obj.position.set(0, 28, 0);
       }
 
       this.isLoaded = true;

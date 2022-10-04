@@ -2,7 +2,7 @@
   "meta": {
     "domain": "https://nyctechweek.xyz/",
     "title": "New York Tech Week 2022",
-    "keywords": "New York, Tech, Week, 2022, Party Round, WebGL, three.js",
+    "keywords": "New York, Tech, Week, 2022, Capital, Party Round, WebGL, three.js",
     "description": "New York Tech Week | A week of IRL events thrown by NYC VCs & startups. Register your email to host or attend the events."
   },
   "pages": {
@@ -63,10 +63,10 @@
       "href": "https://www.brex.com/"
     },
     {
-      "company": "Party Round",
-      "logo": "/img/logos/partyround.png",
-      "description": "Party Round is attending New York Tech Week 2022",
-      "href": "https://www.partyround.com/"
+      "company": "Capital",
+      "logo": "/img/logos/capitalxyz.png",
+      "description": "Capital is attending New York Tech Week 2022",
+      "href": "https://capital.xyz/"
     },
     {
       "company": "Ramp",

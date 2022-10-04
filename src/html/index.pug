@@ -15,6 +15,9 @@ block content
   .l-contents.js-contents#content
     .p-introduction
       .p-introduction__wrap
+        .p-introduction__row.js-transition-intro#capitalText
+          |To celebrate the launch of
+          +textLink("/hosts.html", "Capital")#capitalLink
         .p-introduction__links.js-transition-intro
           .p-introduction__link.js-transition-intro#ass
             |*
@@ -66,8 +69,8 @@ block content
             |//////////
           .p-infinite-wall__item
             |
-            +textLink("https://twitter.com/NYCTechWeek", "FOLLOW ALONG", "_blank")
-            a(href="https://twitter.com/NYCTechWeek", target="_blank", id=`twitter-${arr}`, alt="Twitter icon")
+            +textLink("https://twitter.com/capitalxyz", "TO CELEBRATE THE LAUNCH OF CAPITAL", "_blank")
+            a(href="https://twitter.com/capitalxyz", target="_blank", id=`twitter-${arr}`, alt="Twitter icon")
               +iconTwitter(14)
           .p-infinite-wall__item
             |//////////
@@ -159,8 +162,8 @@ block content
           |I'm Interested
 
       .p-success#success
-        |Successful registration, now follow along on 
-        +textLink("https://twitter.com/NYCTechWeek", " Twitter", "_blank")
+        |Successful registration, now TO CELEBRATE THE LAUNCH OF CAPITAL on 
+        +textLink("https://twitter.com/capitalxyz", " Twitter", "_blank")
 
 
     .a-event-schedule
@@ -206,8 +209,8 @@ block content
           each arr in array
             .p-infinite-wall__item
               |
-              +textLink("https://twitter.com/NYCTechWeek", "FOLLOW ALONG", "_blank")
-              a(href="https://twitter.com/NYCTechWeek", target="_blank", id=`twitter-${arr}`, alt="Twitter icon")
+              +textLink("https://twitter.com/capitalxyz", "TO CELEBRATE THE LAUNCH OF CAPITAL", "_blank")
+              a(href="https://twitter.com/capitalxyz", target="_blank", id=`twitter-${arr}`, alt="Twitter icon")
                 +iconTwitter(14)
             .p-infinite-wall__item
               |//////////
@@ -216,4 +219,10 @@ block content
             .p-infinite-wall__item
               |//////////
 
+  a(href="https://capital.xyz", target="_blank", id="capital")
+    .capital-notice
+      img(src="/img/logos/capital.png", alt=`Capital logo`)
+      h5 Modern companies are built on Capital
+      p Available now on iOS and Web.
+        
   canvas(id="canvas-webgl", class="p-canvas-webgl")

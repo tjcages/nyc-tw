@@ -272,6 +272,13 @@
       "archive": true
     },
     {
+      "company": "Litquidity",
+      "logo": "/img/logos/litquidity.jpeg",
+      "description": "Litquidity is attending New York Tech Week 2022",
+      "href": "https://www.litquidity.co/",
+      "archive": true
+    },
+    {
       "company": "Lenny Rachitsky",
       "logo": "/img/logos/lenny.png",
       "description": "Lenny Rachitsky is attending New York Tech Week 2022",
@@ -466,13 +473,6 @@
       "logo": "/img/logos/anthemis.png",
       "description": "anthemis is attending New York Tech Week 2022",
       "href": "https://www.anthemis.com/",
-      "archive": true
-    },
-    {
-      "company": "Litquidity",
-      "logo": "/img/logos/litquidity.jpeg",
-      "description": "Litquidity is attending New York Tech Week 2022",
-      "href": "https://www.litquidity.co/",
       "archive": true
     },
     {

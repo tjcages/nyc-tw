@@ -110,7 +110,14 @@
       "company": "Stonks",
       "logo": "/img/logos/stonks.png",
       "description": "Stonks is attending New York Tech Week 2022",
-      "href": "https://stonks.com/"
+      "href": "https://stonks.com/",
+      "archive": true
+    },
+    {
+      "company": "FirstMark",
+      "logo": "/img/logos/firstmark.png",
+      "description": "Stonks is attending New York Tech Week 2022",
+      "href": "https://firstmarkcap.com/"
     },
     {
       "company": "Magna",
@@ -155,10 +162,17 @@
       "href": "https://www.orangedao.xyz/"
     },
     {
+      "company": "Bain Capital",
+      "logo": "/img/logos/bain.png",
+      "description": "Bain Capital is attending New York Tech Week 2022",
+      "href": "https://baincapitalventures.com/"
+    },
+    {
       "company": "Praying For Exits",
       "logo": "/img/logos/praying.png",
       "description": "Praying For Exits is attending New York Tech Week 2022",
-      "href": "https://www.prayingforexits.com/"
+      "href": "https://www.prayingforexits.com/",
+      "archive": true
     },
     {
       "company": "Partiful",
@@ -676,13 +690,6 @@
       "logo": "/img/logos/lines.jpeg",
       "description": "Lines is attending New York Tech Week 2022",
       "href": "https://lines.by/",
-      "archive": true
-    },
-    {
-      "company": "Bain Capital",
-      "logo": "/img/logos/baincapital.jpeg",
-      "description": "Bain Capital is attending New York Tech Week 2022",
-      "href": "https://baincapitalventures.com/",
       "archive": true
     },
     {

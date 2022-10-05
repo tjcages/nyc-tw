@@ -272,6 +272,13 @@
       "archive": true
     },
     {
+      "company": "Figma",
+      "logo": "/img/logos/figma.png",
+      "description": "Figma is attending New York Tech Week 2022",
+      "href": "https://www.figma.com/",
+      "archive": true
+    },
+    {
       "company": "Amazon Web Services",
       "logo": "/img/logos/aws.png",
       "description": "Amazon Web Services is attending New York Tech Week 2022",
@@ -694,9 +701,16 @@
     },
     {
       "company": "QED",
-      "logo": "/img/logos/qed.jpeg",
+      "logo": "/img/logos/qed.png",
       "description": "QED is attending New York Tech Week 2022",
       "href": "https://www.qedinvestors.com/",
+      "archive": true
+    },
+    {
+      "company": "Nyca",
+      "logo": "/img/logos/nyca.png",
+      "description": "Nyca is attending New York Tech Week 2022",
+      "href": "https://www.nyca.com/",
       "archive": true
     },
     {

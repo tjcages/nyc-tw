@@ -45,6 +45,12 @@
   "groupedEvents": [],
   "hosts": [
     {
+      "company": "Figma",
+      "logo": "/img/logos/figma.png",
+      "description": "Figma is attending New York Tech Week 2022",
+      "href": "https://www.figma.com/"
+    },
+    {
       "company": "Not Boring",
       "logo": "/img/logos/notboring.png",
       "description": "Not Boring is attending New York Tech Week 2022",
@@ -60,19 +66,20 @@
       "company": "Brex",
       "logo": "/img/logos/brex.png",
       "description": "Brex is attending New York Tech Week 2022",
-      "href": "https://www.brex.com/"
-    },
-    {
-      "company": "Capital",
-      "logo": "/img/logos/capitalxyz.png",
-      "description": "Capital is attending New York Tech Week 2022",
-      "href": "https://capital.xyz/"
+      "href": "https://www.brex.com/",
+      "archive": true
     },
     {
       "company": "Ramp",
       "logo": "/img/logos/ramp.png",
       "description": "Ramp is attending New York Tech Week 2022",
       "href": "https://ramp.com/"
+    },
+    {
+      "company": "Capital",
+      "logo": "/img/logos/capitalxyz.png",
+      "description": "Capital is attending New York Tech Week 2022",
+      "href": "https://capital.xyz/"
     },
     {
       "company": "Workweek",
@@ -269,13 +276,6 @@
       "logo": "/img/logos/diagram.png",
       "description": "Diagram is attending New York Tech Week 2022",
       "href": "https://diagram.com/",
-      "archive": true
-    },
-    {
-      "company": "Figma",
-      "logo": "/img/logos/figma.png",
-      "description": "Figma is attending New York Tech Week 2022",
-      "href": "https://www.figma.com/",
       "archive": true
     },
     {

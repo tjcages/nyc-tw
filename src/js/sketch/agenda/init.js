@@ -147,7 +147,10 @@ export default function () {
       if (events && events.length > 0) {
         events.sort((a, b) => Number(a.date) - Number(b.date));
         events.forEach((event, index) => {
+          console.log(dayIndex)
+          console.log(index)
           const eventElem = document.getElementById(dayIndex + index);
+          console.log(eventElem)
           eventElem.style.display = "flex";
 
           eventElem.querySelector(".a-event__title").innerHTML =

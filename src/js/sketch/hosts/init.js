@@ -53,21 +53,6 @@ export default function () {
   const postEffect = new PostEffect(renderBack.texture);
   const elemIntro = document.getElementsByClassName("js-transition-intro");
 
-  const nameInput = document.getElementById("name");
-  const companyInput = document.getElementById("company");
-  const emailInput = document.getElementById("email");
-  const socialInput = document.getElementById("social");
-
-  const eventTitleInput = document.getElementById("event-title");
-  const eventDateInput = document.getElementById("event-date");
-  const eventLocationInput = document.getElementById("event-location");
-  const capacitySelect = document.getElementById("capacity");
-  const eventLinkInput = document.getElementById("event-link");
-  const eventDescriptionInput = document.getElementById("event-description");
-
-  const registerButton = document.getElementById("submit");
-  const successMessage = document.getElementById("success");
-
   const resizeWindow = () => {
     canvas.width = document.body.clientWidth;
     canvas.height = window.innerHeight;

@@ -114,23 +114,23 @@
       "archive": true
     },
     {
-      "company": "Stonks",
-      "logo": "/img/logos/stonks.png",
-      "description": "Stonks is attending New York Tech Week 2022",
-      "href": "https://stonks.com/",
-      "archive": true
-    },
-    {
       "company": "FirstMark",
       "logo": "/img/logos/firstmark.png",
       "description": "Stonks is attending New York Tech Week 2022",
       "href": "https://firstmarkcap.com/"
     },
     {
+      "company": "Stonks",
+      "logo": "/img/logos/stonks.png",
+      "description": "Stonks is attending New York Tech Week 2022",
+      "href": "https://stonks.com/"
+    },
+    {
       "company": "Magna",
       "logo": "/img/logos/magna.png",
       "description": "Magna is attending New York Tech Week 2022",
-      "href": "https://www.magna.so/"
+      "href": "https://www.magna.so/",
+      "archive": true
     },
     {
       "company": "OnDeck",

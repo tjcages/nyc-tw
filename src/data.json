@@ -45,12 +45,6 @@
   "groupedEvents": [],
   "hosts": [
     {
-      "company": "Figma",
-      "logo": "/img/logos/figma.png",
-      "description": "Figma is attending New York Tech Week 2022",
-      "href": "https://www.figma.com/"
-    },
-    {
       "company": "Not Boring",
       "logo": "/img/logos/notboring.png",
       "description": "Not Boring is attending New York Tech Week 2022",

@@ -171,7 +171,7 @@
 
     & > a #capitalLink {
       background-color: red;
-      transform: translateX(-8px)
+      transform: translateX(-8px);
     }
 
     @media (min-width: $break-point-mobile) {
@@ -550,5 +550,28 @@
     text-align: left;
 
     color: #8e8c87;
+  }
+}
+
+.disclaimerContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10vh 0;
+
+  .disclaimer {
+    max-width: 600px;
+    margin-left: 0;
+
+    font-size: 12px;
+    text-align: justify;
+    opacity: 0.5;
+
+    @media (min-width: $break-point-mobile) {
+      & {
+        margin-left: 24px;
+      }
+    }
   }
 }

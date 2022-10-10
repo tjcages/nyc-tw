@@ -357,6 +357,13 @@
       "archive": true
     },
     {
+      "company": "South Park Commons",
+      "logo": "/img/logos/spc.png",
+      "description": "South Park Commons is attending New York Tech Week 2022",
+      "href": "https://www.southparkcommons.com/",
+      "archive": true
+    },
+    {
       "company": "Aravali",
       "logo": "/img/logos/aravali.png",
       "description": "Aravali is attending New York Tech Week 2022",

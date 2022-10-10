@@ -193,7 +193,7 @@
     img {
       height: 28px;
       -webkit-filter: grayscale(100%);
-      filter: grayscale(100%) contrast(300%);
+      filter: grayscale(100%) contrast(100%);
     }
 
     @media (min-width: $break-point-mobile) {

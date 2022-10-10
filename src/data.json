@@ -183,6 +183,13 @@
       "archive": true
     },
     {
+      "company": "500 Global",
+      "logo": "/img/logos/500global.png",
+      "description": "500 Global is attending New York Tech Week 2022",
+      "href": "https://500.co/",
+      "archive": true
+    },
+    {
       "company": "Antler",
       "logo": "/img/logos/antler.png",
       "description": "Antler is attending New York Tech Week 2022",
@@ -288,10 +295,9 @@
     },
     {
       "company": "Litquidity",
-      "logo": "/img/logos/litquidity.jpeg",
+      "logo": "/img/logos/litquidity.png",
       "description": "Litquidity is attending New York Tech Week 2022",
-      "href": "https://www.litquidity.co/",
-      "archive": true
+      "href": "https://www.litquidity.co/"
     },
     {
       "company": "Lenny Rachitsky",

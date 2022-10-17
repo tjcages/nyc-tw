@@ -226,7 +226,7 @@
     border-top: 1px dashed #fff;
     border-bottom: 1px dashed #fff;
     background-color: rgba(255, 255, 255, 0.1);
-    padding: 12px 0;
+    padding: 12px 12px;
     font-size: 1.1rem;
     opacity: 0;
     transform: scale(1.8);
@@ -241,14 +241,14 @@
     }
   }
   &__link {
-    width: 18px;
+    // width: 18px;
     height: 18px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     opacity: 0;
     transform: scale(1.8);
-    margin: 0 12px;
+    margin: 0 2px;
     transition-property: opacity, transform;
     svg {
       width: 18px;
